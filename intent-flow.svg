@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fafdff"/><stop offset="1" stop-color="#dff5ff"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#fff"/><stop offset=".34" stop-color="#7de7ff"/><stop offset=".72" stop-color="#148fd0"/><stop offset="1" stop-color="#07528d"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#8fe6ff" stop-opacity=".28"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1477a8" flood-opacity=".18"/></filter>
+</defs>
+<rect width="900" height="520" rx="42" fill="url(#bg)"/>
+<circle cx="690" cy="95" r="145" fill="#68dfff" opacity=".18"/><circle cx="150" cy="420" r="170" fill="#168ee0" opacity=".08"/>
+<g filter="url(#shadow)"><rect x="54" y="86" width="230" height="340" rx="30" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+<text x="82" y="126" font-family="Arial" font-size="13" font-weight="700" fill="#5d8197">USER INTENT</text>
+<text x="82" y="184" font-family="Arial" font-size="24" font-weight="700" fill="#123d5c">“Book a doctor</text><text x="82" y="216" font-family="Arial" font-size="24" font-weight="700" fill="#123d5c">tomorrow afternoon.”</text>
+<rect x="82" y="270" width="155" height="10" rx="5" fill="#168ed5" opacity=".2"/><rect x="82" y="296" width="120" height="10" rx="5" fill="#168ed5" opacity=".13"/><rect x="82" y="322" width="175" height="10" rx="5" fill="#168ed5" opacity=".09"/>
+</g>
+<path d="M304 255 C390 195 430 195 505 255" fill="none" stroke="#39c7f3" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+<circle cx="408" cy="220" r="72" fill="url(#orb)" stroke="#fff" stroke-width="3" filter="url(#shadow)"/><text x="408" y="215" text-anchor="middle" font-family="Arial" font-size="34" font-weight="800" fill="#fff">S</text><text x="408" y="239" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" letter-spacing="3" fill="#eaffff">AI NODE</text>
+<g filter="url(#shadow)"><rect x="530" y="72" width="316" height="376" rx="30" fill="#fff" fill-opacity=".72" stroke="#fff" stroke-width="2"/>
+<text x="562" y="112" font-family="Arial" font-size="13" font-weight="700" fill="#5d8197">VERIFIED OUTCOME</text>
+<circle cx="580" cy="160" r="14" fill="#1fc99a"/><path d="M573 160l5 5 10-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<text x="610" y="166" font-family="Arial" font-size="18" font-weight="700" fill="#16435f">Appointment secured</text>
+<rect x="562" y="205" width="248" height="1" fill="#8bb8ca" opacity=".35"/>
+<text x="562" y="238" font-family="Arial" font-size="12" fill="#587488">Provider</text><text x="562" y="262" font-family="Arial" font-size="16" font-weight="700" fill="#173e59">Connected clinic</text>
+<text x="562" y="304" font-family="Arial" font-size="12" fill="#587488">Time</text><text x="562" y="328" font-family="Arial" font-size="16" font-weight="700" fill="#173e59">Tomorrow · 3:30 PM</text>
+<rect x="562" y="365" width="160" height="42" rx="21" fill="#e2f8ff"/><text x="642" y="391" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#0879b5">AUTHORIZED + VERIFIED</text>
+</g></svg>
